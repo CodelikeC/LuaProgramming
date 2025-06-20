@@ -20,7 +20,7 @@ This project explores the use of **Lua scripting** in combination with modern **
 ## 📁 Structure
 
 ```bash
-/
+/Lua
 ├── .vsCode/          # C++ source code
 ├── build/          # Lua scripts
 ├── practice/      # Header files
