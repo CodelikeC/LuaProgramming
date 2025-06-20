@@ -25,4 +25,10 @@ This project explores the use of **Lua scripting** in combination with modern **
 ├── build/          # Lua scripts
 ├── practice/      # Header files
 └── README.md     # You’re reading it!
+```
 
+## 🤝 Contribution
+This is a personal learning space, but feel free to fork and explore. Pull requests are welcome if you find something worth adding.
+
+## 📜 License
+This project is under the MIT License.
