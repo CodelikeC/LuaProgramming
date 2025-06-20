@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW-W64 14.2.0",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/OpenSSL-Win64/include",
+                //"C:/MinGW/include", 
+                //"C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++"
+                //"C:/Program Files/gcc-14.2.0-no-debug/include",
+                //"C:/Program Files/gcc-14.2.0-no-debug/lib", 
+                //"C:/Program Files/gcc-14.2.0-no-debug/lib/gcc/x86_64-w64-mingw32/14.2.0/include"
+                "C:/mingw64/include", 
+                "C:/mingw64/lib", 
+                "C:/vcpkg/installed/x64-windows/include",
+                "C:/grpc-1.72.1/grpc-1.72.1/include", 
+                "C:/vcpkg/packages/protobuf_x64-windows/include", 
+                "C:/vcpkg/installed/x64-windows/tools/protobuf",
+                "${workspaceFolder}/**",
+                "C:/vcpkg/installed/x64-windows/include/nlohmann", 
+                "C:/vcpkg/installed/x64-windows/include/uwebsockets", 
+                "C:/vcpkg/ports/zlib", 
+                "C:/npcap-sdk-1.15/Include/", 
+                "C:/npcap", 
+                "D:/Dev/LuaBuilt/include"
+            ],
+            "defines": [],
+            "windowsSdkVersion": "10.0.20000.0",
+            //"compilerPath": "C:/MinGW/bin/g++.exe",
+            //"compilerPath": "C:/Program Files/gcc-14.2.0-no-debug/bin/g++.exe",
+            "compilerPath": "C:/mingw64/bin/g++.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-I", "C:/OpenSSL-Win64/include",
+                "-L", "C:/OpenSSL-Win64/lib",
+                "-lssl", "-lcrypto"
+            ], 
+            "browse": {
+                "path": [
+                    "C:/OpenSSL-Win64/include",
+                    "C:/mingw64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
